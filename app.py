@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("model_streamlit.pkl")
+
 
 st.set_page_config(page_title="Predictive Maintenance - Flavi Dairy", layout="centered")
 st.title("🛠️ Predictive Maintenance using Sensor Data")
